@@ -42,7 +42,7 @@ document.addEventListener("DOMContentLoaded", () => {
     }
 
     // Llamada a la API con la frase reconocida
-    fetch("http://44.200.239.253/2api-gpt-php/endpoints/chat.php", {
+    fetch("http://3.231.150.226/2api-gpt-php/endpoints/chat.php", {
       method: "POST",
       headers: { "Content-Type": "application/json" },
       body: JSON.stringify({ message: transcript }) // CAMBIO AQUÍ para que coincida con el PHP
